@@ -129,3 +129,4 @@ run/
 /src/test/spigot/eula.txt
 /src/test/spigot/spigot-*.jar
 /src/test/spigot/CraftBukkit/*
+/src/test/spigot/CraftBukkit/
