@@ -70,5 +70,10 @@
             <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>net.kigawa</groupId>
+            <artifactId>util</artifactId>
+            <version>3.11dev</version>
+        </dependency>
     </dependencies>
 </project>

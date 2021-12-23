@@ -111,3 +111,21 @@ buildNumber.properties
 
 # Common working directory
 run/
+/src/test/plugin/*.jar
+/src/test/spigot/apache-maven-3.6.0/
+/src/test/spigot/BuildData/
+/src/test/spigot/Bukkit/
+/src/test/spigot/CraftBukkit
+/src/test/spigot/logs
+/src/test/spigot/plugins
+/src/test/spigot/PortableGit-2.30.0-64-bit
+/src/test/spigot/Spigot
+/src/test/spigot/work
+/src/test/spigot/world
+/src/test/spigot/world_nether
+/src/test/spigot/world_the_end
+/src/test/spigot/BuildTools.jar
+/src/test/spigot/BuildTools.log.txt
+/src/test/spigot/eula.txt
+/src/test/spigot/spigot-*.jar
+/src/test/spigot/CraftBukkit/*
