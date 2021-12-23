@@ -1,0 +1,5 @@
+name: Spigot Plugin
+version: '${project.version}'
+main: net.kigawa.template.spigotplugin.SpigotPlugin
+api-version: 1.16
+authors: [ kigawa ]
