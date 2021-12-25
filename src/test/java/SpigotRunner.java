@@ -79,7 +79,8 @@ public class SpigotRunner {
         File[] files = pluginsDir.listFiles();
         if (files != null)
             for (File plugin : files) {
-                plugin.delete();
+                if (plugin.getName().endsWith(".jar"))
+                    plugin.delete();
             }
         File target;
         files = pluginDir.listFiles();
