@@ -1,28 +1,31 @@
 package net.kigawa.template.spigotplugin;
 
-import org.bukkit.Bukkit;
-import org.bukkit.command.CommandSender;
-import org.bukkit.command.defaults.BukkitCommand;
-import org.bukkit.craftbukkit.v1_16_R3.CraftServer;
-import org.bukkit.plugin.java.JavaPlugin;
+import net.kigawa.spigot.pluginutil.PluginBase;
+import net.kigawa.spigot.pluginutil.command.AbstractCmd;
+import org.bukkit.configuration.file.FileConfiguration;
 
-import java.util.LinkedList;
-
-public final class SpigotPlugin extends JavaPlugin {
+public final class SpigotPlugin extends PluginBase {
     @Override
-    public void onEnable() {
-        ((CraftServer) Bukkit.getServer()).getCommandMap().register("aaa",new Command("aaa"));
-    }
-}
+    public void addConfigDefault(FileConfiguration fileConfiguration) {
 
-class Command extends BukkitCommand {
-
-    protected Command(String name) {
-        super(name,"bbb","ccc",new LinkedList<>());
     }
 
     @Override
-    public boolean execute(CommandSender sender, String commandLabel, String[] args) {
-        return false;
+    public void enable() {
+    }
+
+    @Override
+    public void disable() {
+
+    }
+
+    @Override
+    public void load() {
+
+    }
+
+    @Override
+    public void addCommands(AbstractCmd... abstractCmds) {
+
     }
 }

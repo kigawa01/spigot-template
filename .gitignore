@@ -130,3 +130,4 @@ run/
 /src/test/spigot/spigot-*.jar
 /src/test/spigot/CraftBukkit/*
 /src/test/spigot/CraftBukkit/
+/src/test/spigot/user/7edb03e2-afe3-4952-a98f-83dc4cef859a.yml

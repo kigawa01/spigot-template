@@ -66,14 +66,14 @@
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
+            <artifactId>spigot-api</artifactId>
             <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>net.kigawa</groupId>
-            <artifactId>util</artifactId>
-            <version>3.14dev</version>
+            <groupId>net.kigawa.spigot</groupId>
+            <artifactId>spigot-util</artifactId>
+            <version>3.6dev</version>
         </dependency>
     </dependencies>
 </project>
