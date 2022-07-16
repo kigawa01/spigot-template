@@ -4,15 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.kigawa.template</groupId>
-    <artifactId>spigot-plugin</artifactId>
-    <version>1.0dev</version>
+    <groupId><!--todo-->groupeid</groupId>
+    <artifactId><!--todo-->spigot-plugin</artifactId>
+    <version><!--todo-->1.0dev</version>
     <packaging>jar</packaging>
 
-    <name>Spigot Plugin</name>
+    <name>
+        <!--todo-->
+        plugin name
+    </name>
+
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -72,8 +76,8 @@
         </dependency>
         <dependency>
             <groupId>net.kigawa.spigot</groupId>
-            <artifactId>spigot-util</artifactId>
-            <version>3.6dev</version>
+            <artifactId>kutil-spigot</artifactId>
+            <version>1.1dev</version>
         </dependency>
     </dependencies>
 </project>
